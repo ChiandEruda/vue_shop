@@ -22,7 +22,8 @@
             active-text-color="#2a6ab4"
             :collapse="isCollapse"
             :collapse-transition="false"
-            router>
+            router
+            :default-active="$route.path">
 
           <!-- 菜单折叠按钮 -->
           <div class="toggle-button" @click="togleCollapse">|||</div>
